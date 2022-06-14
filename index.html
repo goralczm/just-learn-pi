@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Just Learn Pi</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="pi-numbers">
+                <span id="numbers-typed"></span> <span id="numbers-left">1415926535897</span>
+            </div>
+            <br>
+            <div class="form-input">
+                <form action="">
+                    <input type="text" id="number" oninput="CheckIfCorrect()" autocomplete="off">
+                </form>
+            </div>
+            <br>
+            <div class="output" id="output">
+                <span id="output-span">Start typing pi digits</span><br>
+            </div>
+        </div>
+    </body>
+</html>
